@@ -1,0 +1,124 @@
+* {
+    color:rgb(96, 45, 45);
+    margin: 0px;
+    padding: 0px;
+}
+.hero {
+    background-color: rgb(111, 177, 199);
+    display: flex;
+    flex-direction: column;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.Orua {
+    font-weight: 900px;
+   font-size: 40px;
+   margin: 0px;
+    
+}
+.navlist {
+    width: 400px;
+    display: flex;
+     
+    justify-content: space-around;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+li {
+    list-style: none;
+
+}
+
+<!-- 
+.undernav {
+    display: flex;
+   justify-content: space-evenly;
+}
+.navhook {
+    margin: 100px;
+    width: 300px;
+    flex-shrink: 0;
+
+}
+.mainimage {
+   height: 300px;
+    border: 3px solid rgb(96, 45, 45);
+}
+.attract {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.button {
+
+    margin: 10px;
+    padding: 10px;
+    width: 40px;
+    flex-grow: 0;
+    color: rgb(71, 152, 180);
+    background-color: rgb(96, 45, 45);
+   
+}
+<!--
+body {
+    display: flex;
+flex-direction: column;
+}
+.content {
+display: flex;
+flex-direction: column;
+}
+.showreel {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.images {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    
+}
+img {
+    height: 100%;
+    width: 100%
+    
+}
+
+.overbox {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.box {
+    display: flex;
+    border: 3px solid rgb(96, 45, 45);
+    width: 200px;
+    height: 200px;
+}
+.action {
+    display: flex;
+    background-color: #666;
+    color: white;
+  
+}
+.quote {
+    color: white;
+    display:flex;
+    padding: 150px;
+  
+
+}
+.footer {
+    height: 600px;
+}
